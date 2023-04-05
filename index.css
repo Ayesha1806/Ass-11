@@ -1,0 +1,44 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: #ccc;
+    font-weight: bold;
+  }
+  
+  form {
+    margin: 20px auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
